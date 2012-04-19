@@ -51,8 +51,8 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<redis>, ["= 2.0.7"])
-      s.add_runtime_dependency(%q<redis-namespace>, ["= 0.10.0"])
+      #s.add_runtime_dependency(%q<redis>, ["= 2.0.7"])
+      #s.add_runtime_dependency(%q<redis-namespace>, ["= 0.10.0"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
       s.add_runtime_dependency(%q<i18n>, [">= 0"])
       s.add_runtime_dependency(%q<activesupport>, [">= 2"])
@@ -64,8 +64,8 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<i18n>, [">= 0"])
       s.add_runtime_dependency(%q<activesupport>, [">= 2"])
     else
-      s.add_dependency(%q<redis>, ["= 2.0.7"])
-      s.add_dependency(%q<redis-namespace>, ["= 0.10.0"])
+      #s.add_dependency(%q<redis>, ["= 2.0.7"])
+      #s.add_dependency(%q<redis-namespace>, ["= 0.10.0"])
       s.add_dependency(%q<json>, [">= 0"])
       s.add_dependency(%q<i18n>, [">= 0"])
       s.add_dependency(%q<activesupport>, [">= 2"])
@@ -78,8 +78,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<activesupport>, [">= 2"])
     end
   else
-    s.add_dependency(%q<redis>, ["= 2.0.7"])
-    s.add_dependency(%q<redis-namespace>, ["= 0.10.0"])
+    #s.add_dependency(%q<redis>, ["= 2.0.7"])
+    #s.add_dependency(%q<redis-namespace>, ["= 0.10.0"])
     s.add_dependency(%q<json>, [">= 0"])
     s.add_dependency(%q<i18n>, [">= 0"])
     s.add_dependency(%q<activesupport>, [">= 2"])
